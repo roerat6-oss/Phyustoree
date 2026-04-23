@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Phyu Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #f5f5f5;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px;
+      background: black;
+      color: white;
+      font-weight: bold;
+    }
+
+    .banner {
+      height: 250px;
+      background: url('https://i.imgur.com/T9pmg3F.png');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .produk {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .card {
+     background:  white;
+      padding: 10px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="navbar">
+  <div>PHYU STORE</div>
+  <div>Cart</div>
+</div>
+
+<div class="banner"></div>
+
+<div class="produk">
+  <div class="card">
+    <img src="https://i.imgur.com/8Km9tLL.jpg">
+    <p>Produk 1</p>
+  </div>
+
+  <div class="card">
+    <img src="https://i.imgur.com/8Km9tLL.jpg">
+    <p>Produk 2</p>
+  </div>
+</div>
+
+</body>
+</html>
