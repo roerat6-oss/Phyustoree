@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Produk | PHYU STORE</title>
+    <style>
+        body { font-family: 'Helvetica', sans-serif; margin: 0; padding: 0; background: #fff; color: #000; }
+        .header { padding: 15px; border-bottom: 1px solid #eee; display: flex; align-items: center; }
+        .back-btn { text-decoration: none; color: #000; font-size: 20px; margin-right: 15px; }
+        .product-img { width: 100%; display: block; }
+        .content { padding: 20px; }
+        .title { font-size: 1.2rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; }
+        .price-box { margin: 15px 0; font-size: 1.1rem; }
+        .old-price { text-decoration: line-through; color: #999; margin-right: 10px; }
+        .new-price { color: #d00; font-weight: bold; border-bottom: 2px solid #d00; }
+        .desc { line-height: 1.6; color: #444; font-size: 0.9rem; margin-bottom: 80px; }
+        .wa-float { position: fixed; bottom: 20px; right: 20px; background: #25D366; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 30px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html" class="back-btn">←</a>
+        <span>PRODUK DETAIL</span>
+    </div>
+    
+    <img src="https://i.imgur.com/T9pmg3F.png" class="product-img">
+
+    <div class="content">
+        <div class="title">ECHOES DOUBLE SLEEVE HEAVYWEIGHT OVERSIZE TSHIRT - BLACK</div>
+        
+        <div class="price-box">
+            <span class="old-price">Rp 329.000</span>
+            <span class="new-price">Rp 312.550</span>
+        </div>
+
+        <p class="desc">Material: Cotton Combed 20s (Heavyweight)<br>Printing: Plastisol High Density<br><br>Kaos oversize dengan detail double sleeve yang memberikan kesan bertumpuk. Cocok untuk style cult Yogyakarta Underground.</p>
+    </div>
+
+    <a href="https://wa.me/628xxxxxxxxxx?text=Halo%20Phyu%20Store,%20saya%20mau%20tanya%20produk%20Echoes%20Tshirt" class="wa-float">
+        WA
+    </a>
+</body>
+</html>
